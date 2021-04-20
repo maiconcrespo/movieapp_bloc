@@ -55,14 +55,14 @@ class _HomeScreenState extends State<HomeScreen> {
                     children: [
                       FractionallySizedBox(
                         alignment: Alignment.topCenter,
-                        heightFactor: 0.4,
+                        heightFactor: 0.5,
                         child: MovieCarouselWidget(
                           movies: state.movies,
                           defaultIndex: state.defaultIndex,
                         ),
                       ),
                       FractionallySizedBox(
-                        heightFactor: 0.6,
+                        heightFactor: 0.5,
                         alignment: Alignment.bottomCenter,
                         child: MovieTabbedWidget(),
                       ),
