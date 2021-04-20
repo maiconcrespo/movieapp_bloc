@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:movieapp/common/constants/size_constants.dart';
 import 'package:movieapp/common/constants/translations_constants.dart';
-import 'package:movieapp/common/extensions/size_extensions.dart';
+
 import 'package:movieapp/presentation/themes/app.color.dart';
 import 'package:movieapp/common/extensions/String_extensions.dart';
 import 'package:movieapp/presentation/widgets/button.dart';
